@@ -25,8 +25,8 @@ class PhoneForm extends Component{
             phone:''
         })
     }
-    render(){
-        return (
+    render(){        
+        return (            
             <form onSubmit={this.handleSubmit}>
                 <input
                     placeholer="이름"
